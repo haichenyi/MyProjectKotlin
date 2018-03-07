@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="增"/>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="改"/>
+
+    <Button
+        android:id="@+id/btn_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查"/>
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试接口"/>
+    <Button
+        android:id="@+id/btn_socket_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Socket连接"/>
+    <Button
+        android:id="@+id/btn_tcp_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送Tcp消息"/>
+    <Button
+        android:id="@+id/btn_udp_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送Udp消息"/>
+    <Button
+        android:id="@+id/btn_permission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拍照"/>
+</LinearLayout>
